@@ -27,3 +27,8 @@ main {
 .images {
     flex: 1 1 300px;
 }
+
+#mainimagee { 
+    width: 100%;
+    border-radius: 8px;
+}
