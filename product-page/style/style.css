@@ -1,7 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: white;
     color: #333;
     margin: 0;
     padding: 0;
 } 
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
