@@ -42,10 +42,22 @@ main {
 .productdetails {
     background: white;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 2rem;
     flex: 1 1 400px;
-    padding: 1.5rem;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.features {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
 }
 
 h2 {
@@ -72,7 +84,15 @@ h2 {
 .sellerinfo {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    background: #e8f0fe;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.sellertext {
+    display: flex;
+    flex-direction: column;
 }
 
 .sellerlogo {
