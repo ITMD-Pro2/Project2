@@ -43,6 +43,9 @@ main {
     background: white;
     border-radius: 8px;
     padding: 1.5rem;
+    flex: 1 1 400px;
+    padding: 1.5rem;
+    border-radius: 8px;
 }
 
 h2 {
