@@ -17,3 +17,13 @@ main {
     margin: auto;
     padding: 2rem;
 }
+
+.productdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.images {
+    flex: 1 1 300px;
+}
