@@ -109,29 +109,30 @@ h2 {
 
 .sellerinfo {
     display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    background: #e8f0fe;
-    padding: 1rem;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 1rem;
+    background: #e9f0ff;
+    padding: 10px;
     border-radius: 6px;
 }
 
 .sellertext {
     display: flex;
     flex-direction: column;
+    gap: 4px;
+    font-size: 1.5rem;
 }
 
 .sellerlogo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #ccc;
-    margin-right: 10px;
+    object-fit: cover;
 }
 
 .sellertext strong {
-    display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     font-weight: bold;
 }
 
