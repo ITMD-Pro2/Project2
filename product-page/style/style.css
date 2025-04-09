@@ -177,3 +177,17 @@ button {
 .buy:hover {
     background-color: #2b6c2e;
 }
+
+@media (max-width: 768px) {
+    .productdisplay {
+        flex-direction: column;
+    }
+
+    .mainimage img {
+        max-width: 100%;
+    }
+
+    .right-col {
+        margin-top: 1rem;
+    }
+}
