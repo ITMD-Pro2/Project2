@@ -1,193 +1,239 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    background: white;
-    color: #333;
-    margin: 0;
-    padding: 0;
-} 
+  font-family: 'Open Sans', Arial, sans-serif;
+  background: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  }
 
 header {
-    text-align: center;
-    padding: 2rem;
-    background: white;
+  text-align: center;
+  padding: 2rem;
+  background: white;
 }
 
 main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.navbar {
+  background-color: #d0d0d0;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .sign-in a:hover {
+  background-color: #cf5454;
+  transition: 0.25s;
+  border-radius: 1rem;
+}
+
+.navbar .home a:hover {
+  background-color: #5a74dc;
+  transition: 0.25s;
+  border-radius: 1rem;
+}
+
+.navbar .products a:hover {
+  background-color: #cfc237;
+  transition: 0.25s;
+  border-radius: 1rem;
+}
+
+.navbar .contact a:hover {
+  background-color: #71d056;
+  transition: 0.25s;
+  border-radius: 1rem;
 }
 
 .productdisplay {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .left-col {
-    flex: 1 1 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .images {
-    flex: 1 1 300px;
+  flex: 1 1 300px;
 }
 
 .mainimage img { 
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
 }
 
 .thumbnail {
-    display: flex;
-    gap: 8px;
-    margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .thumbnail img {
-    width: 60px;
-    height: auto;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    border-radius: 4px;
+  width: 60px;
+  height: auto;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .right-col {
-    flex: 1 1 45%;
-    background: #fafafa;
-    border-radius: 8px;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex: 1 1 45%;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .productdetails {
-    background: white;
-    border-radius: 8px;
-    padding: 2rem;
-    flex: 1 1 400px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  flex: 1 1 400px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .features {
-    margin: 1rem 2rem;
-    list-style: disc;
-    color: #444
+  margin: 1rem 2rem;
+  list-style: disc;
+  color: #444
 }
 
 h2 {
-    font: 2rem;
+  font: 2rem;
 }
 
 .ogprice {
-    font-size: 1rem;
-    text-decoration: line-through;
-    margin-left: 10px;
-    color: red;
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin-left: 10px;
+  color: red;
 }
 
 .price {
-    font-size: 2rem;
-    color: #222;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
 }
 
 .Condition {
-    color: #053e92;
-    font-weight: bold;
-    margin: 1rem 0 0.3rem 0;
+  color: #053e92;
+  font-weight: bold;
+  margin: 1rem 0 0.3rem 0;
 }
 
 .Availability {
-    margin-top: 1rem;
-    font-style: italic;
+  margin-top: 1rem;
+  font-style: italic;
 }
 
 .sellerinfo {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 1rem;
-    background: #e9f0ff;
-    padding: 10px;
-    border-radius: 6px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 1rem;
+  background: #e9f0ff;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .sellertext {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 1.5rem;
 }
 
 .sellerlogo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .sellertext strong {
-    margin-bottom: 0.2rem;
-    font-weight: bold;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
 }
 
 .sellertext a {
-    margin-right: 10px;
-    color: #03284d;
-    text-decoration: none;
-    font-size: 1rem;
+  margin-right: 10px;
+  color: #03284d;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .actions {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 button {
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 0.8rem 1.2rem;
-    transition: 0.3s ease;
-    margin-right: 10px;
-    border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  transition: 0.3s ease;
+  margin-right: 10px;
+  border: none;
 }
 
 .addcart {
-    background-color: #1976d2;
-    color: white;
+  background-color: #1976d2;
+  color: white;
 }
 
 .addcart:hover {
-    background-color: #125ea5;
+  background-color: #125ea5;
 }
 
 .buy {
-    background-color: #388e3c;
-    color: white;
+  background-color: #388e3c;
+  color: white;
 }
 
 .buy:hover {
-    background-color: #2b6c2e;
+  background-color: #2b6c2e;
 }
 
 @media (max-width: 768px) {
-    .productdisplay {
-        flex-direction: column;
-    }
+  .productdisplay {
+    flex-direction: column;
+  }
 
-    .mainimage img {
-        max-width: 100%;
-    }
+  .mainimage img {
+    max-width: 100%;
+  }
 
-    .right-col {
-        margin-top: 1rem;
-    }
+  .right-col {
+    margin-top: 1rem;
+  }
 }
