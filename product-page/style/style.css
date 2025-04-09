@@ -83,6 +83,7 @@ h2 {
 .sellertext strong {
     display: block;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .sellertext a {
@@ -90,4 +91,36 @@ h2 {
     color: #03284d;
     text-decoration: none;
     font-size: 1rem;
+}
+
+.actions {
+    margin-top: 1.5rem;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    transition: 0.3s ease;
+    margin-right: 10px;
+    border: none;
+}
+
+.addcart {
+    background-color: #1976d2;
+    color: white;
+}
+
+.addcart:hover {
+    background-color: #125ea5;
+}
+
+.buy {
+    background-color: #388e3c;
+    color: white;
+}
+
+.buy:hover {
+    background-color: #2b6c2e;
 }
