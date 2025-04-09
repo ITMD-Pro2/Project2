@@ -77,13 +77,9 @@ main {
 }
 
 .features {
-    margin-top: 1rem;
-    padding-left: 1rem;
-}
-
-.features li {
-    margin-bottom: 0.5rem;
-    list-style-type: disc;
+    margin: 1rem 2rem;
+    list-style: disc;
+    color: #444
 }
 
 h2 {
@@ -97,13 +93,20 @@ h2 {
     color: red;
 }
 
+.price {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
 .Condition {
     color: #053e92;
     font-weight: bold;
+    margin: 1rem 0 0.3rem 0;
 }
 
 .Availability {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     font-style: italic;
 }
 
