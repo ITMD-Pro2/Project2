@@ -44,3 +44,14 @@ main {
     border-radius: 8px;
     padding: 1.5rem;
 }
+
+h2 {
+    font: 2rem;
+}
+
+.ogprice {
+    font-size: 1rem;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: red;
+}
