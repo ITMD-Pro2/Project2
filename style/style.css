@@ -1,3 +1,5 @@
+/* global style */
+
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   background: white;
@@ -5,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* header and nav */
 
 .logo {
   width: 150px;
@@ -17,12 +21,6 @@ header {
   text-align: center;
   padding: 2rem;
   background: white;
-}
-
-main {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
 }
 
 .navbar {
@@ -62,6 +60,14 @@ main {
   background-color: #71d056;
   transition: 0.25s;
   border-radius: 1rem;
+}
+
+/* main item page layout */
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
 }
 
 .productdisplay {
@@ -139,6 +145,8 @@ main {
   justify-content: space-between;
 }
 
+/* product details */
+
 .features {
   margin: 0.5rem 2rem;
   list-style: disc;
@@ -183,9 +191,12 @@ h2 {
   color: green;
   font-weight: bold;
 }
+
 .freeshipping {
   color: #2470d3;
 }
+
+/* seller styling */
 
 .sellerinfo {
   display: flex;
@@ -227,6 +238,8 @@ h2 {
   color: #777777;
 }
 
+/* add to cart / buy buttons */
+
 .actions {
   margin-top: 1.5rem;
 }
@@ -259,6 +272,8 @@ button {
   background-color: #2b6c2e;
 }
 
+/* shipping drop down */
+
 .shipping-details {
   margin-top: 0.5rem;
 }
@@ -287,6 +302,8 @@ button {
 .shipping-content.hidden {
   display: none;
 }
+
+/* specs drop down */
 
 .specs {
   margin-top: 2rem;
@@ -326,6 +343,8 @@ button {
   margin-top: 0.4rem;
   font-weight: bold;
 }
+
+/* seller desc drop down */
 
 .seller-description {
   margin-top: 2rem;
@@ -378,6 +397,8 @@ button {
   border: none;
   border-top: 1px solid #ccc;
 }
+
+/* similar listings */
 
 .similar-listings {
   margin-top: 1rem;
