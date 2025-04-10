@@ -266,6 +266,26 @@ button {
   display: none;
 }
 
+.specs {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.toggle-specs {
+  background-color: #0070ba;
+  color: white;
+  font-weight: bold;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.spec-list {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
 
 
 @media (max-width: 768px) {
