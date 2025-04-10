@@ -81,7 +81,7 @@ main {
   flex: 1 1 300px;
 }
 
-.mainimage img { 
+#mainimage { 
   width: 100%;
   max-width: 400px;
   border-radius: 8px;
