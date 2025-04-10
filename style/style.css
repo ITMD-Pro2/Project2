@@ -77,6 +77,23 @@ main {
   align-items: center;
 }
 
+.product-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.product-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-title p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
 .images {
   flex: 1 1 300px;
 }
