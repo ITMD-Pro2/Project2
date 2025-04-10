@@ -140,9 +140,15 @@ main {
 }
 
 .features {
-  margin: 1rem 2rem;
+  margin: 0.5rem 2rem;
   list-style: disc;
   color: #444
+}
+
+.features-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -177,8 +183,8 @@ h2 {
   color: green;
   font-weight: bold;
 }
-.freeship {
-  color: #1a73e8;
+.freeshipping {
+  color: #2470d3;
 }
 
 .sellerinfo {
