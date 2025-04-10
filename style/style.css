@@ -64,7 +64,7 @@ header {
 
 /* main item page layout */
 
-main {
+.itemmain {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
