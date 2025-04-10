@@ -324,6 +324,12 @@ button {
   font-weight: bold;
 }
 
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
 @media (max-width: 768px) {
   .productdisplay {
     flex-direction: column;
