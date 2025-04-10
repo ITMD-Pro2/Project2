@@ -241,6 +241,33 @@ button {
   background-color: #2b6c2e;
 }
 
+.shipping-details {
+  margin-top: 0.5rem;
+}
+
+.toggle-shipping {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shipping-content {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 3px solid #0070ba;
+  border-radius: 5px;
+}
+
+.shipping-content.hidden {
+  display: none;
+}
+
+
+
 @media (max-width: 768px) {
   .productdisplay {
     flex-direction: column;
