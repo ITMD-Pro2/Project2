@@ -254,6 +254,10 @@ button {
   border-radius: 5px;
 }
 
+.toggle-shipping:hover {
+  background-color: #e6e6e6;
+}
+
 .shipping-content {
   margin-top: 1rem;
   padding: 1rem;
