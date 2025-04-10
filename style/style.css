@@ -70,6 +70,34 @@ main {
   gap: 2rem;
 }
 
+.featured {
+  margin: 1rem 2rem;
+  list-style: disc;
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.featured img {
+  width: 100%;
+  max-width: 275px;
+  border-radius: 8px;
+  display: block;
+}
+
+.featured a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  text-decoration: underline;
+}
+
+.featured p {
+  font-size: 1.3rem;
+  color: #555;
+}
+
 .left-col {
   flex: 1 1 45%;
   display: flex;
@@ -120,12 +148,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.features {
-  margin: 1rem 2rem;
-  list-style: disc;
-  color: #444
 }
 
 h2 {
