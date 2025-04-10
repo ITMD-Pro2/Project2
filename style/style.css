@@ -407,6 +407,14 @@ button {
   text-align: center;
 }
 
+.similar-item img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
 .item-title {
   font-size: 1rem;
   font-weight: bold;
