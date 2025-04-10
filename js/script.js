@@ -1,3 +1,6 @@
+
+/* item page js stuff */
+
 /* shipping button details */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -39,7 +42,6 @@ descBtn.addEventListener('click', () => {
 /* image switching for gallery */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // image switch logic
   const mainImage = document.getElementById('mainimage');
   const thumbnails = document.querySelectorAll('.thumbnail img');
 
