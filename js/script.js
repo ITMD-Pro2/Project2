@@ -19,3 +19,13 @@ specBtn.addEventListener('click', () => {
     ? 'View Full Specifications ▼'
     : 'Hide Specifications ▲';
 });
+
+const descBtn = document.querySelector('.toggle-description');
+const descContent = document.querySelector('.description');
+
+descBtn.addEventListener('click', () => {
+  descContent.classList.toggle('hidden');
+  descBtn.textContent = descContent.classList.contains('hidden')
+    ? 'View Seller Description ▼'
+    : 'Hide Seller Description ▲';
+});
