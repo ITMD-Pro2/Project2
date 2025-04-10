@@ -454,6 +454,10 @@ button {
   margin-top: 10px;
 }
 
+.itemlisting-button:hover {
+  background-color: #01558d;
+}
+
 @media (max-width: 768px) {
   .productdisplay {
     flex-direction: column;
