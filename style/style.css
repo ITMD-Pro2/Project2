@@ -285,8 +285,28 @@ button {
 .spec-list {
   margin-top: 1rem;
   padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
+.spec-list div {
+
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  color: #222;
+}
+
+.spec-list dd {
+  display: inline;
+  color: #555;
+}
+
+.spec-list dt {
+  margin-top: 0.4rem;
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
   .productdisplay {
