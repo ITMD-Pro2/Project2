@@ -192,7 +192,7 @@ h2 {
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 1rem;
-  background: #e9f0ff;
+  background: #edf1f3;
   padding: 10px;
   border-radius: 6px;
 }
@@ -218,9 +218,13 @@ h2 {
 
 .sellertext a {
   margin-right: 10px;
-  color: #03284d;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
   font-size: 1rem;
+}
+
+.sellertext a:hover {
+  color: #777777;
 }
 
 .actions {
