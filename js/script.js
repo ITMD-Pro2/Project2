@@ -10,3 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
+const specBtn = document.querySelector('.toggle-specs');
+const specContent = document.querySelector('.spec-list');
+
+specBtn.addEventListener('click', () => {
+  specContent.classList.toggle('hidden');
+  specBtn.textContent = specContent.classList.contains('hidden')
+    ? 'View Full Specifications ▼'
+    : 'Hide Specifications ▲';
+});

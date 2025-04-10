@@ -303,6 +303,10 @@ button {
   color: #555;
 }
 
+.spec-list.hidden {
+  display: none;
+}
+
 .spec-list dt {
   margin-top: 0.4rem;
   font-weight: bold;
