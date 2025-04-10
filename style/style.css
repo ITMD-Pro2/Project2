@@ -285,21 +285,14 @@ button {
   border-radius: 8px;
 }
 
-.toggle-specs {
-  background-color: #0070ba;
-  color: white;
-  font-weight: bold;
-  padding: 0.7rem 1.2rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .spec-list {
   margin-top: 1rem;
   padding-left: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  border-left: 3px solid #0070ba;
+  border-radius: 5px;
 }
 
 .spec-list div {
@@ -331,7 +324,29 @@ button {
   border-radius: 8px;
 }
 
-.toggle-description {
+.description {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 3px solid #0070ba;
+  border-radius: 5px;
+}
+
+.product-toggles {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.toggle-buttons button {
   background-color: #0070ba;
   color: white;
   font-weight: bold;
@@ -341,24 +356,18 @@ button {
   border: none;
 }
 
-.description-content {
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: #f9f9f9;
-  border-left: 3px solid #0070ba;
-  border-radius: 5px;
+.toggle-buttons button:hover {
+  background-color: #005a96;
 }
 
 .hidden {
   display: none;
 }
 
-
 .divider {
   border: none;
   border-top: 1px solid #ccc;
 }
-
 
 @media (max-width: 768px) {
   .productdisplay {
