@@ -9,13 +9,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
-  <script async src="js/script.js"></script>
+  <script defer src="js/script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>ASUS Vivobook S15</h1>
-    <p>15.6" 3K OLED Snapdragon X Elite X1E 78 100 32GB 1TB SSD W11H</p>
-  </header>
+  <ul class="navbar">
+    <li class="sign-in"><a href="home-page/sign-in.html">Sign In</a></li>
+    <li class="home"><a href="home.html">Home</a></li>
+    <li class="products"><a href="index.html">Products</a></li>
+    <li class="contact"><a href="home-page/contact.html">Contact</a></li>
+  </ul>
+  <img src="img/ebay_logo.png" alt="ebay_logo" class="logo">
+  <hr class="divider">
+  <div class="product-title">
+      <h1>ASUS Vivobook S15</h1>
+      <p>15.6" 3K OLED Snapdragon X Elite X1E 78 100 32GB 1TB SSD W11H</p>
+  </div>
   <main>
     <section class="productdisplay">
       <div class="left-col">
@@ -38,30 +46,86 @@
               <a href="#">Contact the seller</a>
             </div>
         </div>
-      </div>
-      <h2 class="price">$633.00 <span class="ogprice">$1,099.99</span></h2>
-      <p class="Condition">Certified Refurbished</p>
-      <p class="Availability">In Stock | Free Shipping</p>
-      <ul class="features">
-        <li>Snapdragon X Elite X1E 78 100</li>
-        <li>32GB DDR5 RAM</li>
-        <li>1TB NVMe SSD</li>
-        <li>15.6” 3K OLED Display</li>
-        <li>Windows 11 Home</li>
-      </ul>
-      <div class="actions">
-        <button class="addcart">Add to Cart</button>
-        <button class="buy">Buy Now</button>
+        <h2 class="price">USD $633.00 <span class="ogprice">List Price: $1,099.99</span></h2>
+        <p class="Condition">Condition: Certified Refurbished</p>
+        <p class="Availability">
+          <span class="stock">In Stock</span> | <span class="freeshipping">Free Shipping</span>
+        </p>
+        <p class="features-title">Key Features</p>
+        <ul class="features">
+          <li>Snapdragon X Elite X1E 78 100</li>
+          <li>32GB DDR5 RAM</li>
+          <li>1TB NVMe SSD</li>
+          <li>15.6” 3K OLED Display</li>
+          <li>Windows 11 Home</li>
+        </ul>
+        <div class="actions">
+          <button class="addcart">Add to Cart</button>
+          <button class="buy">Buy Now</button>
+        </div>
+        <section class="shipping-details">
+          <button class="toggle-shipping">Shipping & Delivery Info</button>
+          <div class="shipping-content hidden">
+            <p><strong>Shipping:</strong> Free FedEx Ground or FedEx Home Delivery. <a href="#">See details</a></p>
+            <p>Located in: Placentia, California, United States</p>
+            <p><strong>Delivery:</strong> Estimated between <strong>Fri, Apr 11</strong> and <strong>Tue, Apr 15</strong> to 60714</p>
+            <p><strong>Returns:</strong> 30 days returns. Seller pays for return shipping. <a href="#">See details</a></p>
+            <p>*No interest if paid in full in 6 months on $149+. <a href="#">See terms and apply now</a></p>
+            <p>Earn up to 5x points when you use your eBay Mastercard.</p>
+          </div>
+        </section>
       </div>
     </section>
 
-      <section class="specs">
+    <hr class="divider">
 
-      </section>
+    <section class="specs">
+      <div class="toggle-buttons">
+        <button class="toggle-specs">View Full Specifications</button>
+        <button class="toggle-description">View Seller Description</button>
+      </div>
+      <dl class="spec-list hidden">
+        <div>
+          <dt>Model</dt>
+          <dd>ASUS Vivobook S15</dd>
+        </div>
+        <div>
+          <dt>Processor</dt>
+          <dd>Snapdragon X Elite X1E 78 100</dd>
+        </div>
+        <div>
+          <dt>RAM Size</dt>
+          <dd>32GB LPDDR5</dd>
+        </div>
+        <div>
+          <dt>Storage</dt>
+          <dd>1TB NVMe SSD</dd>
+        </div>
+        <div>
+          <dt>Display</dt>
+          <dd>15.6” 3K OLED (2880x1620)</dd>
+        </div>
+        <div>
+          <dt>Operating System</dt>
+          <dd>Windows 11 Home</dd>
+        </div>
+        <div>
+          <dt>Ports</dt>
+          <dd>USB-C, HDMI, USB 3.0, Audio Jack</dd>
+        </div>
+        <div>
+          <dt>Connectivity</dt>
+          <dd>2 x USB-A 3.0 / 3.1/3.2 Gen 1 2 x USB-C (USB4) / Supports Video A, 1 x HDMI 2.1</dd>
+        </div>
+      </dl>
+      <div class="description hidden">
+        <p>blah blah blah blah</p>
+      </div>
+    </section>
 
-      <section class="similarlisting">
+    <section class="similarlisting">
 
-      </section>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
 </html>
