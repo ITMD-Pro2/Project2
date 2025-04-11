@@ -7,18 +7,54 @@
   <link rel="stylesheet" href="style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <script async src="home-page/js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script async src="js/script.js"></script>
   <title>eBay Redesign - Home Page</title>
 </head>
 <body>
   <ul class="navbar">
-    <li class="sign-in"><a href="home-page/sign-in.html">Sign In</a></li>
+    <li class="sign-in"><a href="sign-in.html">Sign In or Register</a></li>
     <li class="home"><a href="home.html">Home</a></li>
     <li class="products"><a href="index.html">Products</a></li>
-    <li class="contact"><a href="home-page/contact.html">Contact</a></li>
+    <li class="contact"><a href="contact.html">Contact</a></li>
   </ul>
-  <img src="img/ebay_logo.png" alt="ebay_logo" class="logo">
-  
+  <div class="header-content">
+    <img src="img/ebay_logo.png" alt="ebay_logo" class="logo">
+    <div class="search-container">
+      <form action="#" method="get" class="search-form">
+        <input type="text" placeholder="Search for anything" name="search" class="search-input">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </div>
+  </div>
+  <hr class="divider">
+  <main>
+    <div class="banner-container">
+      <div class="banner-content">
+        <img src="img/promo.png" alt="eBay Promotion" class="banner-image">
+      </div>
+    </div>
+    <h1 class="product-title">Popular in Laptops</h1>
+    <div class="productdisplay">
+      <div class="featured">
+        <img src="img/s-l960.png" alt="ASUS Vivobook">
+        <a href="index.html">ASUS Vivobook S15</a>
+        <p>15.6" 3K OLED Snapdragon X Elite X1E 78 100 32GB 1TB SSD W11H</p>
+        <p class="price">$633.00 <span class="ogprice">$1,099.99</span></p>
+      </div>
+      <div class="featured">
+        <img src="img/macbook-air.png" alt="MacBook Air">
+        <h2>Apple MacBook Air M2</h2>
+        <p>13.6" Liquid Retina Display, 8GB RAM, 256GB SSD, macOS</p>
+        <p class="price">$899.99 <span class="ogprice">$1,199.99</span></p>
+      </div>
+      <div class="featured">
+        <img src="img/dell-xps.png" alt="Dell XPS">
+        <h2>Dell XPS 15</h2>
+        <p>15.6" 4K UHD, Intel i7, 16GB RAM, 512GB SSD, Windows 11</p>
+        <p class="price">$1,249.00 <span class="ogprice">$1,699.99</span></p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
