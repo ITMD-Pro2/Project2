@@ -1,13 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    background: url('images/buyer_dweb_individual.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+ font-family: Arial, sans-serif;
+ background-image: url('https://raw.github.com/samialvi/Project2/blob/main/img/individual.jpg');
+ background-size: cover;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ position: relative;
 }
 
 header {
