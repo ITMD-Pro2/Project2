@@ -654,16 +654,6 @@ button:hover {
     border-radius: 5px;
 }
 
-button.main-button {
-  padding: 12px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  background-color: #0073e6; /*pure blue */
-  color: white;
-  font-size: 1rem;
-}
-
 .social-login button.google {
     background-color: #4285F4; /* Google blue */
 }
