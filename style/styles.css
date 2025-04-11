@@ -17,7 +17,6 @@ header {
 
 .header-content {
   display: flex;
-  align-items: center;
   max-width: 1200px;
   justify-content: flex-start;
 }
@@ -37,6 +36,12 @@ header {
     max-width: 400px;
     width: 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signin {
+    color: #0073e6;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 input {
@@ -84,12 +89,6 @@ button:hover {
 
 .social-login button:hover {
     opacity: 0.9; /* Slight hover effect */
-}
-
-.signin {
-    color: #0073e6;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 .signin:hover {
