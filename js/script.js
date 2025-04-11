@@ -1,3 +1,8 @@
+
+/* item page js stuff */
+
+/* shipping button details */
+
 document.addEventListener('DOMContentLoaded', () => {
     const toggleBtn = document.querySelector('.toggle-shipping');
     const content = document.querySelector('.shipping-content');
@@ -10,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
+/* specs list button */
+
 const specBtn = document.querySelector('.toggle-specs');
 const specContent = document.querySelector('.spec-list');
 
@@ -20,6 +27,8 @@ specBtn.addEventListener('click', () => {
     : 'Hide Specifications ▲';
 });
 
+/* seller desc button js */
+
 const descBtn = document.querySelector('.toggle-description');
 const descContent = document.querySelector('.description');
 
@@ -28,4 +37,17 @@ descBtn.addEventListener('click', () => {
   descBtn.textContent = descContent.classList.contains('hidden')
     ? 'View Seller Description ▼'
     : 'Hide Seller Description ▲';
+});
+
+/* image switching for gallery */
+
+document.addEventListener('DOMContentLoaded', () => {
+  const mainImage = document.getElementById('mainimage');
+  const thumbnails = document.querySelectorAll('.thumbnail img');
+
+  thumbnails.forEach(thumbnail => {
+    thumbnail.addEventListener('click', () => {
+      mainImage.src = thumbnail.src;
+    });
+  });
 });
