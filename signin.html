@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in or Register</title>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="js/script.js" async></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script async src="js/script.js"></script>
+  <title>Sign in or Register</title>
 </head>
 <body>
-  <header>
-    <img src="img/ebay_logo.png" alt="eBay Logo" class="logo">
-  </header>
+ <ul class="navbar">
+    <li class="sign-in"><a href="signin.html">Sign In or Register</a></li>
+    <li class="home"><a href="index.html">Home</a></li>
+    <li class="products"><a href="product.html">Products</a></li>
+  </ul>
+  <div class="header-content">
+    <img src="img/ebay_logo.png" alt="ebay_logo" class="logo">
+    <div class="search-container">
+      <form action="#" method="get" class="search-form">
+        <input type="text" placeholder="Search for anything" name="search" class="search-input">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </div>
+  </div>
     <div class="container">
       <h2>Create an Account</h2>
       <input type="text" placeholder="First Name">
