@@ -38,6 +38,7 @@ body {
 }
 
 .ebaybgimg {
+ background-image: url("../img/individual.jpg");
  background-size: cover;
  display: flex;
  flex-direction: column;
