@@ -37,8 +37,7 @@ body {
   padding: 0;
 }
 
-.backgroundimg {
- background-image: url("../img/individual.jpg");
+.ebaybgimg {
  background-size: cover;
  display: flex;
  flex-direction: column;
