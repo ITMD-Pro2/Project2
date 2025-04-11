@@ -37,8 +37,8 @@ body {
   padding: 0;
 }
 
-.background-image {
- background-image:;
+.backgroundimg {
+ background-image: url("../img/individual.jpg");
  background-size: cover;
  display: flex;
  flex-direction: column;
