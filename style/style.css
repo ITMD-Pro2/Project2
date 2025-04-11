@@ -660,7 +660,7 @@ button.main-button {
 }
 
 .social-login button.apple {
-    background-color: black; /* Apple black */
+    background-color: #808080; /* Apple grey */
 }
 
 .social-login button:hover {
