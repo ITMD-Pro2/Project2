@@ -38,7 +38,14 @@ body {
 }
 
 .background-image {
- background-image: url("../img/individual.jpg");
+ background-image:;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ margin: 0;
 }
 
 .header-content {
