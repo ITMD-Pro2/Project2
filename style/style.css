@@ -39,12 +39,6 @@ body {
 
 .background-image {
  background-image: url('https://github.com/ITMD-Pro2/Project2/blob/main/img/individual.jpg');
- background-size: cover;
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- background-attachment: fixed;
- position: relative;
 }
 
 .header-content {
@@ -614,7 +608,6 @@ button {
     background: rgba(255, 255, 255, 0.95);
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
     max-width: 400px;
     width: 100%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -634,7 +627,6 @@ input {
     border-radius: 5px;
     font-size: 1rem;
 }
-
 
 button:hover {
     background-color: #005bb5;
