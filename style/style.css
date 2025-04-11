@@ -122,13 +122,6 @@ body {
   transition: 0.25s;
   border-radius: 1rem;
 }
-
-.navbar .contact a:hover {
-  background-color: #71d056;
-  transition: 0.25s;
-  border-radius: 1rem;
-}
-
 /* main item page layout */
 
 .itemmain {
