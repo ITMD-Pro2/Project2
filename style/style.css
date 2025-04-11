@@ -623,12 +623,12 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
-.create-button {
+.main-button {
     margin-left: auto;
     margin-right: auto;
 }
 
-.signin {
+.signincl {
     color: #0073e6;
     font-weight: bold;
     text-decoration: none;
@@ -659,18 +659,18 @@ button:hover {
 }
 
 .social-login button.facebook {
-    background-color: #4267B2; /* Facebook blue */
+    background-color: #4285F4; /* Facebook blue */
 }
 
 .social-login button.apple {
-    background-color: #808080; /* Apple grey */
+    background-color: #4285F4; /* Apple blue */
 }
 
 .social-login button:hover {
     opacity: 0.9; /* Slight hover effect */
 }
 
-.signin:hover {
+.signincl:hover {
     text-decoration: underline;
 }
 
