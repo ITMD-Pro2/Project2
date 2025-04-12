@@ -585,7 +585,7 @@ button {
 /* Sign in page */
 
 .background-image-page {
-  background-image: url('https://github.com/ITMD-Pro2/Project2/blob/main/img/individual.jpg'); 
+  background-image: url('../img/individual.jpg'); 
   background-size: cover;  
   background-repeat: no-repeat; 
   background-attachment: fixed;
