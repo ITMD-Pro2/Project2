@@ -586,7 +586,7 @@ button {
 
 .background-image-page {
   background-image: url('../img/individual.jpg'); 
-  background-size: 200px 100px;  
+  background-size: 200% 100%;  
   background-repeat: no-repeat; 
   background-attachment: flex;
 
