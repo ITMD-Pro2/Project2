@@ -9,32 +9,16 @@ body {
 }
 
 /* header and nav */
-
-.logo {
-  width: 150px;
-  height: auto;
-  margin: 0 auto;
-  padding: 1rem;
-  }
-
-header {
-  text-align: center;
-  padding: 2rem;
-  background: white;
-}
-
 main {
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
 
-body {
-  font-family: 'Open Sans', Arial, sans-serif;
+header {
+  text-align: center;
+  padding: 2rem;
   background: white;
-  color: #333;
-  margin: 0;
-  padding: 0;
 }
 
 .header-content {
@@ -600,7 +584,13 @@ button {
 }
 /* Sign in page */
 
-.container {
+.background-image-page {
+  background-image: url('https://github.com/ITMD-Pro2/Project2/blob/main/img/individual.jpg'); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+
+.maincontainer {
     background: rgba(255, 255, 255, 0.95);
     padding: 60px;
     border-radius: 10px;
@@ -609,8 +599,18 @@ button {
     width: 90%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.main-button {
-    margin-left: auto;
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+.press-create {
+    margin-left: 50px;
     margin-right: auto;
 }
 
@@ -619,18 +619,9 @@ button {
     font-weight: bold;
     text-decoration: none;
 }
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-button:hover {
-    background-color: #005bb5;
+  
+.signincl:hover {
+    text-decoration: underline;
 }
 
 .social-login button {
@@ -656,15 +647,6 @@ button:hover {
     opacity: 0.9; /* Slight hover effect */
 }
 
-.signincl:hover {
-    text-decoration: underline;
-}
-
-.privacy {
-    font-size: 0.8em;
-    color: gray;
-}
-
 .account-options {
     display: flex;
     justify-content: space-between;
@@ -673,6 +655,11 @@ button:hover {
 
 .account-options button {
     width: 48%;
+}
+  
+.privacy {
+    font-size: 0.8em;
+    color: gray;
 }
 
 @media (max-width: 768px) {
