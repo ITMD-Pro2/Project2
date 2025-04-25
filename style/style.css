@@ -512,9 +512,8 @@ button {
   display: none;
 }
 
-.divider {
-  border: none;
-  border-top: 1px solid #ccc;
+.spacing {
+  margin: 2rem 0;
 }
 
 /* similar listings */
