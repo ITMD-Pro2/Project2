@@ -662,11 +662,17 @@ input {
     color: gray;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 600px) {
   .productdisplay {
-    flex-direction: column;
+    flex-direction: row;
   }
+}
 
+@media (min-width: 1024px) {
+  .maincontainer {
+    padding: 80px;
+  }
+}
   .mainimage img {
     max-width: 100%;
   }
