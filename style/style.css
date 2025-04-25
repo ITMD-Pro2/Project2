@@ -586,6 +586,9 @@ button {
 .background-image-page {
   background-image: url('../img/individual.jpg');  
   background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .maincontainer {
@@ -646,7 +649,6 @@ input {
 }
 
 .account-options {
-    display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
@@ -668,14 +670,9 @@ input {
 
 @media (min-width: 1024px) {
   .maincontainer {
-    padding: 80px;
   }
 }
-  .mainimage img {
-    max-width: 100%;
-  }
-
-  .right-col {
-    margin-top: 1rem;
+.right-col {
+    margin-top: 0.1rem;
   }
 }
