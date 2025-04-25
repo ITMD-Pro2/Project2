@@ -584,10 +584,9 @@ button {
 /* Sign in page */
 
 .background-image-page {
-  background-image: url('../img/individual.jpg'); 
-  background-size: 200% 100%;  
+  background-image: url('../img/individual.jpg');  
   background-repeat: no-repeat; 
-  background-attachment: flex;
+}
 
 .maincontainer {
     background: rgba(255, 255, 255, 0.95);
