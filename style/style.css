@@ -533,8 +533,8 @@ button {
 }
 
 .similar-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   justify-content: space-between;
 }
@@ -545,6 +545,10 @@ button {
   border-radius: 6px;
   background-color: #f9f9f9;
   text-align: center;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  
 }
 
 .similar-item:hover {
@@ -663,35 +667,8 @@ input {
     color: gray;
 }
 
-@media (max-width: 768px) {
-  .similar-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-  }
 
-  .similar-item {
-    width: 90%;
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
-  .productdisplay {
-    flex-direction: column;
-    margin-left: 0;
-  }
-
-  .right-col {
-    margin-top: 1rem;
-  }
-
-  .thumbnail {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 1180px) {
+@media (max-width: 1024px) {
   .similar-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -701,10 +678,5 @@ input {
   .similar-grid {
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-
-  .similar-item {
-    width: 100%;
-    max-width: 380px;
   }
 }
