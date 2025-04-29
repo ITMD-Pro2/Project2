@@ -649,7 +649,7 @@ button:hover {
 }
 
 .social-login button:hover {
-    opacity: 0.9; /* Slight hover effect */
+    opacity: 0.9; 
 }
 
 .press-create { 
