@@ -536,7 +536,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .similar-item {
@@ -667,6 +667,21 @@ input {
     color: gray;
 }
 
+@media (min-width: 1024px) {
+  .product-title h1 {
+    font-size: 2.4rem;
+  }
+
+  .product-title p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .similar-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 @media (max-width: 1024px) {
   .similar-grid {
