@@ -597,7 +597,7 @@ button {
 }
 
 .maincontainer {
-    background: rgba(255, 255, 255, 0.95);
+    background: white;
     padding: 60px;
     border-radius: 10px;
     text-align: center;
@@ -614,11 +614,6 @@ input {
     border-radius: 5px;
     font-size: 1rem;
 }
-  
-.press-create {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .signincl {
     color: #0073e6;
@@ -630,6 +625,10 @@ input {
     text-decoration: underline;
 }
 
+button:hover {
+    background-color: #005bb5;
+}
+
 .social-login button {
     width: 30%;
     padding: 10px;
@@ -638,28 +637,34 @@ input {
 }
 
 .social-login button.google {
-    background-color: #4285F4; /* Google blue */
+    background-color: #4285F4;
 }
 
 .social-login button.facebook {
-    background-color: #4285F4; /* Facebook blue */
+    background-color: #4285F4; 
 }
 
 .social-login button.apple {
-    background-color: #4285F4; /* Apple blue */
+    background-color: #4285F4;
 }
 
 .social-login button:hover {
-    opacity: 0.9; /* Slight hover effect */
+    opacity: 0.9; 
 }
 
-.account-options {
+.press-create { 
+    display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 10px;   
 }
 
-.account-options button {
+.press-create button {
     width: 48%;
+    background-color: #0073e6;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
 }
   
 .privacy {
@@ -693,5 +698,12 @@ input {
   .similar-grid {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+}
+
+@media (-ms-high-contrast: active), all and (-ms-high-contrast: none) {
+  .ifh-root .combobox__value,
+  .ifh-root ::-ms-backdrop {
+    min-width: 100%;
   }
 }
