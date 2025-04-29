@@ -652,7 +652,7 @@ button:hover {
     opacity: 0.9; /* Slight hover effect */
 }
 
-.account-options { 
+.press-create { 
     display: flex;
     justify-content: space-between;
     margin-top: 10px;   
