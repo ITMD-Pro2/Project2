@@ -652,19 +652,19 @@ button:hover {
     opacity: 0.9; /* Slight hover effect */
 }
 
-.account-options {
-    background-color: #0073e6;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 12px;
+.account-options { 
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 10px;   
 }
 
 .account-options button {
     width: 48%;
+    background-color: #0073e6;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
 }
   
 .privacy {
