@@ -637,15 +637,15 @@ button:hover {
 }
 
 .social-login button.google {
-    background-color: #4285F4; /* Google blue */
+    background-color: #4285F4;
 }
 
 .social-login button.facebook {
-    background-color: #4267B2; /* Facebook blue */
+    background-color: #4285F4; 
 }
 
 .social-login button.apple {
-    background-color: black; /* Apple blue */
+    background-color: #4285F4;
 }
 
 .social-login button:hover {
@@ -653,9 +653,14 @@ button:hover {
 }
 
 .account-options {
+    background-color: #0073e6;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    width: 100%;
 }
 
 .account-options button {
