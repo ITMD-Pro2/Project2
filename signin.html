@@ -1,47 +1,63 @@
 <!-- Sami -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
-  <script async src="js/script.js"></script>
-  <title>Get Started Now</title>
-</head>
-<body class="background-image-page">
-  <ul class="navbar">
-    <li class="sign-in"><a href="signin.html">Get Started Now</a></li>
-    <li class="home"><a href="index.html">Home</a></li>
-    <li class="products"><a href="product.html">Products</a></li>
-  </ul>
-<img src="img/ebay_logo.png" alt="ebay_logo" class="logo">
-  <main class="maincontainer">
-    <div class="container-textbox">
-      <form action="/signin_page.php" method="get" autocomplete="on">
-        <h2>Create an Account</h2>
-          <input type="text" placeholder="First Name">
-          <input type="text" placeholder="Last Name">
-          <input type="email" placeholder="Email">
-          <input type="password" placeholder="Password">
-      </form>  
-    </div>  
-    <div class="press-create">
-      <button>Create Personal Account</button>
-      <button>Create Business Account</button>
-    </div>
-      <p>Already have an account?<a href="#" class="signincl">Sign in</a></p>
-    <div class="social-login">
-      <button id="google-login" class="google">Google</button>
-      <button id="facebook-login" class="facebook">Facebook</button>
-      <button id="apple-login" class="apple">Apple</button>
-    </div>
-    <div>
-      <p class="privacy">By selecting Create personal account, you agree to our User Agreement and acknowledge reading our User Privacy Notice.</p>
-    </div>
-  </main> 
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script async src="js/script.js"></script>
+    <title>Get Started Now</title>
+  </head>
+  <body class="background-image-page">
+    <ul class="navbar">
+      <li class="sign-in"><a href="signin.html">Get Started Now</a></li>
+      <li class="home"><a href="index.html">Home</a></li>
+      <li class="products"><a href="product.html">Products</a></li>
+    </ul>
+
+    <img src="img/ebay_logo.png" alt="ebay_logo" class="logo" />
+
+    <main class="maincontainer">
+      <div class="container-textbox">
+        <form action="/signin_page.php" method="get" autocomplete="on">
+          <h2>Create an Account</h2>
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+        </form>
+      </div>
+
+      <div class="press-create">
+        <button>Create Personal Account</button>
+        <button>Create Business Account</button>
+      </div>
+
+      <p>
+        Already have an account?
+        <a href="#" class="signincl">Sign in</a>
+      </p>
+
+      <div class="social-login">
+        <button id="google-login" class="google">Google</button>
+        <button id="facebook-login" class="facebook">Facebook</button>
+        <button id="apple-login" class="apple">Apple</button>
+      </div>
+
+      <div>
+        <p class="privacy">
+          By selecting Create personal account, you agree to our User Agreement
+          and acknowledge reading our User Privacy Notice.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
+
