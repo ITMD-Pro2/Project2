@@ -682,28 +682,9 @@ button:hover {
   }
 }
 
-@media (min-width: 1400px) {
-  .similar-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media (max-width: 1024px) {
   .similar-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .similar-grid {
-    grid-template-columns: 1fr;
     justify-items: center;
-  }
-}
-
-@media (-ms-high-contrast: active), all and (-ms-high-contrast: none) {
-  .ifh-root .combobox__value,
-  .ifh-root ::-ms-backdrop {
-    min-width: 100%;
   }
 }
