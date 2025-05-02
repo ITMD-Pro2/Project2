@@ -688,11 +688,16 @@ button:hover {
   .product-title p {
     font-size: 1.4rem;
   }
+
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .similar-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .similar-grid {
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
 }
