@@ -666,6 +666,10 @@ button:hover {
     padding: 12px;
     width: 100%;
 }
+
+.press-create button:hover {
+    opacity: 0.9; 
+}
   
 .privacy {
     font-size: 0.8em;
